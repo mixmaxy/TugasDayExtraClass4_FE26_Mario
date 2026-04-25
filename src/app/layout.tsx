@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Syne, DM_Sans } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
+import Footer from "@/components/Footer";
  
 // Syne: display font yang bold dan karakteristik untuk judul
 // DM Sans: body font yang bersih dan readable
@@ -43,7 +44,8 @@ export default function RootLayout({
           main dengan role semantik yang benar
           padding-top untuk kompensasi fixed navbar
         */}
-        <main className="pt-20">{children}</main>
+        <main role="main">{children}</main>
+        <Footer />
       </body>
     </html>
   );

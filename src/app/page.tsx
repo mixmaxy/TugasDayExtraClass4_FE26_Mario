@@ -124,7 +124,7 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="bg-stone-50 py-24">
+      <section className="bg-stone-50 py-24 ">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-16 animate-fade-up">
             <h2 className="font-display text-3xl sm:text-4xl font-bold text-stone-900 mb-4">
@@ -171,23 +171,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Simple Footer */}
-      <footer className="mt-auto py-12 border-t border-stone-100 bg-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row justify-between items-center gap-6">
-          <div className="flex items-center gap-2 font-display font-bold text-stone-900">
-            <UtensilsCrossed className="w-5 h-5 text-amber-500" />
-            <span>FoodVault</span>
-          </div>
-          <p className="text-sm text-stone-400">
-            © {new Date().getFullYear()} FoodVault App. Dibangun untuk kesehatan Anda.
-          </p>
-          <div className="flex gap-6">
-            <Link href="/foods" className="text-sm text-stone-600 hover:text-amber-600 font-medium transition-colors">Katalog</Link>
-            <Link href="/foods/create" className="text-sm text-stone-600 hover:text-amber-600 font-medium transition-colors">Tambah</Link>
-          </div>
-        </div>
-      </footer>
 
       {/* Floating Add Button for Mobile UX */}
       <Link
