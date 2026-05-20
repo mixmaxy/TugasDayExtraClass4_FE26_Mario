@@ -12,10 +12,7 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
     ]
-  },
-  turbopack: {
-    root: path.join(__dirname),
-  },
+  }
 };
 
 export default nextConfig;
