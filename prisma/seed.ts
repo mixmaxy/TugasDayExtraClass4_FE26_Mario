@@ -1,9 +1,7 @@
 // Seed database dengan data contoh untuk development
 // Jalankan dengan: npm run db:seed
  
-import { PrismaClient } from "@prisma/client";
- 
-const prisma = new PrismaClient();
+import { prisma } from "../src/lib/prisma";
  
 const SAMPLE_FOODS = [
   {

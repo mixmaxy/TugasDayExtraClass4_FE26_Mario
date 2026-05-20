@@ -8,7 +8,6 @@ generator client {
 
 datasource db {
   provider  = "postgresql"
-  url       = env("DATABASE_URL")
   // Untuk Supabase, gunakan connection pooling (port 6543) untuk transaksi
   // dan direct connection (port 5432) untuk migrations
 }
